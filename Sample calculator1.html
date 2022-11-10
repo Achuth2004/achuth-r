@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function add()
+            {
+                var n1,n2,sum;
+                n1=parseInt(document.getElementByID("fn").value);
+                n2=parseInt(document.getElementByID("sn").value);
+                sum=n1+n2;
+                document.getElementById("answer").value = sum;
+            }
+        </script>
+    </head>
+    <body>
+    <p>Enter the first Number: <input id="fn"></P>
+    <p>Enter the second Number: <input id="sn"></P>
+    <button onclick="add()">Add</button>
+    <p>Sum= <input id="answer"></p>
+    </body>
+</html>    
